@@ -9,6 +9,8 @@
 # General
 --------------------------------------------------------------*/
 body {
+  font-family: 'Exo', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
@@ -23,8 +25,16 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h6 {
   font-family: "Jost", sans-serif;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+}
+
+h5{
+  font-family: 'Exo', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -118,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(29, 35, 45, 0.9);
 }
 
 #header .logo {
@@ -380,8 +390,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 35px;
+  margin: 0 0 30px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -389,8 +400,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.6);
+  font-family: "Exo", sans-serif;
   margin-bottom: 50px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #hero .btn-get-started {
@@ -507,6 +519,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
+  padding-bottom: 100px;
   overflow: hidden;
 }
 
@@ -516,7 +529,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .section-title h2 {
@@ -526,7 +539,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: #21262f;
 }
 
 .section-title h2::before {
@@ -615,6 +628,12 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  position: fixed;
 }
 
 .about .content .btn-learn-more {
@@ -650,7 +669,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #37517e;
+  color: #1c222d;
 }
 
 .why-us .content h4 {
@@ -716,6 +735,7 @@ section {
 }
 
 .why-us .accordion-list p {
+  font-family: 'Exo', sans-serif;
   margin-bottom: 0;
   padding: 10px 0 0 0;
 }
@@ -877,9 +897,9 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/sifigure\ team.png") fixed center center;
+  background: linear-gradient(rgba(30, 32, 35, 0.9), rgba(29, 36, 49, 0.9)), url("../img/wkwk.png") fixed center center;
   background-size: cover;
-  padding: 120px 0;
+  padding: 200px 0;
 }
 
 .cta h3 {
@@ -899,7 +919,7 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 40px;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 0.5s;
   margin: 10px;
   border: 2px solid #fff;
