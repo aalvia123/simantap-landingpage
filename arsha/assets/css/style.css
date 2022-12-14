@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .getstarted {
   padding: 8px 20px;
   margin-left: 30px;
-  border-radius: 50px;
+  border-radius: 10px;
   color: #fff;
   font-size: 14px;
   border: 2px solid #47b2e4;
@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  background: url("../img/hero.jpeg");
 }
 
 #hero .container {
@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 28px 11px 28px;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
