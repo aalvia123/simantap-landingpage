@@ -855,7 +855,7 @@ section {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
-  background: #fff;
+  background: #21262f;
 }
 
 .services .icon-box .icon {
@@ -863,7 +863,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #47b2e4;
+  color: #f4f6f7;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -875,7 +875,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #37517e;
+  color: #8a8f9d;
   transition: ease-in-out 0.3s;
 }
 
