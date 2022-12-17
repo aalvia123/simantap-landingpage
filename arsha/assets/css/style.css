@@ -30,9 +30,17 @@ h1, h2, h4, h6 {
 }
 
 h3{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Jost', sans-serif;
+  color: #21262f;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 30px;
 }
 
+.img-fluid{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.img-section
 h5{
   font-family: 'Exo', sans-serif;
 }
@@ -450,7 +458,85 @@ h5{
 }
 
 
+.hero-waves {
+  display: block;
+  margin-top: 60px;
+  width: 100%;
+  height: 60px;
+  z-index: 5;
+  position: relative;
+}
 
+.wave1 use {
+  -webkit-animation: move-forever1 10s linear infinite;
+  animation: move-forever1 10s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+.wave2 use {
+  -webkit-animation: move-forever2 8s linear infinite;
+  animation: move-forever2 8s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+.wave3 use {
+  -webkit-animation: move-forever3 6s linear infinite;
+  animation: move-forever3 6s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+@-webkit-keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+
+@keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+@-webkit-keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+@keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+@-webkit-keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+@keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
 
 
 
@@ -468,6 +554,7 @@ h5{
   }
   #hero .hero-img img {
     width: 50%;
+    
   }
 }
 
@@ -524,7 +611,7 @@ section {
 }
 
 .section-bg {
-  background-color: #D6E4E5;
+  background-color: #F5F5F5;
 }
 
 .section-title {
@@ -875,7 +962,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #8a8f9d;
+  color: #d8dbe6;
   transition: ease-in-out 0.3s;
 }
 
@@ -1635,7 +1722,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: #1D232DE6;
 }
 
 #footer .footer-newsletter {
